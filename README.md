@@ -16,7 +16,7 @@ The `run_analysis.R` will do the following manipulations:
   - Clears the global enviroment and loads _dplyr_ package;
   - Loads the _features.txt_ and _activity_labels.txt_, manipulate some of the labels and save them in vectors varibles. 
   For this step `gsub` was used in a nexted way, as several manipulations where need in order to make the labels 
-  clean and tidy. (see [CODEBOOK](https://github.com/hugser/STUDY-ORGANIZER/blob/master/Courses/Coursera/Data_Science_Specialization_JohnsHopkinsUniversity/Getting_and_Cleaning_Data/Week4/get_and_clean_data_PROJECT/CODEBOOK.md) for the final layout);
+  clean and tidy. (see [CODEBOOK](https://github.com/hugser/get_and_clean_data_PROJECT/blob/master/CODEBOOK.md) for the final layout);
   - Loads the _test_ and _train_ sets (X, y and subject), using the above vectors for the `col.names` option;
   - Merges both _test_ and _train_ into a _full_ data.frame;
   - Replaces the `y_full` data.frame values by their corresponding activity (found in _activity_labels.txt_);
